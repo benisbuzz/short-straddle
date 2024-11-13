@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "short-straddle"
+version = "0.1.0"
+description = ""
+authors = ["benisbuzz <ben@danziger.uk>"]
+readme = "README.md"
+packages = [{include = "short_straddle"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+numpy = "^2.1.3"
+ipykernel = "^6.29.5"
+ipython = "^8.29.0"
+yfinance = "^0.2.49"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
