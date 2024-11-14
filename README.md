@@ -1,5 +1,7 @@
 # Short Straddle Strategy
 
+## See main.ipynb for results and option_pricing.py for Black Scholes logic
+
 1. Get hourly values of VIX index for period 10th Nov 2022 to 1st Nov 2024
 2. Get hourly values of SPY for period 10th Nov 2022 to 1st Nov 2024
 3. Create a function to price a vanilla call/put on SPY given an SPY price, an implied vol, assuming interest rates and dividends are zero

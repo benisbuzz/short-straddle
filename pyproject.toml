@@ -14,6 +14,8 @@ ipykernel = "^6.29.5"
 ipython = "^8.29.0"
 yfinance = "^0.2.49"
 matplotlib = "^3.9.2"
+scipy = "^1.14.1"
+tqdm = "^4.67.0"
 
 
 [build-system]
